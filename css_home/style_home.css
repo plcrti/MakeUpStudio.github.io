@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat Alternates";
+}
+
+header {
+    height: 80px;
+    display: flex;
+    margin-left: 140px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.account img{
+    height: 50px;
+    margin-top: 10.5px;
+}
+
+.menu_head {
+    font-size: 15px;
+    margin-left: 1000px;
+    margin-top: 27px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    width: 500px;
+    
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.banner, .background_text {
+    display: block;
+    justify-content: center;
+    margin-left: 140px;
+}
+
+.img {
+    height: 288px;
+    display: block;
+}
+
+.nav {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.background_text {
+    position: relative;
+    background-image: url(../img/Home/background_about_us.png);
+    background-size: cover;
+    height: 600px;
+    width: 1615px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_text {
+    width: 800px;
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 407.5px;
+    margin-right: 407.5px;
+    line-height: 30px;
+}
+
+.cont {
+    margin-top: 150px;
+}
+
+.pict_1 {
+    height: 500px;
+    margin-left: 140px;
+}
+
+.circle_1 {
+    display: grid;
+    grid-template-columns: repeat(2, 210px);
+    gap: 210px;
+}
+
+.text_1 {
+    font-size: 20px;
+    margin-top: 165px;
+}
+
+.button {
+    width: 130px;
+    height: 40px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    background-color: rgba(225, 198, 169, 1);
+    color: white;
+    cursor: pointer;
+}
+
+.link_1 {
+    margin-left: 20px;
+}
+
+.pict_2 {
+    height: 500px;
+}
+
+.circle_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 210px);
+    margin-left: 664px;
+}
+
+.text_2 {
+    font-size: 20px;
+    margin-top: 165px;
+}
+
+.serv {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.link_2 {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.natalia_circle, .ksenia_circle, .irina_circle {
+    height: 300px;
+}
+
+.circles {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.name_1, .name_2, .name_3 {
+    font-size: 20px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.name_1 {
+    margin-left: 525px;
+}
+
+.name_2 {
+    margin-left: 235px;
+}
+
+.name_3 {
+    margin-left: 255px;
+}
+
+hr {
+    background-color: rgba(225, 198, 169, 1);
+    height: 2px;
+    opacity: 3;
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-left: 140px;
+    display: flex;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    margin-left: 300px;
+    gap: 30px;
+}
+
+.title_fot {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.media_serv {
+    display: none;
+}
+
+.media_name {
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .margins {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    header {
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 60px;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .menu_head {
+        font-size: 11px;
+        margin-top: 20px;
+        margin-left: 10px;
+        gap: 30px;
+    }
+
+    .account img {
+        text-align: right;
+        margin-right: 0px;
+        height: 40px;
+        margin-top: 8px;
+    }
+
+    .banner {
+        margin-left: 0px;
+    }
+
+    .img {
+        height: 67.5px;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 15px;
+    }
+    
+    .title{
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .background_text {
+        width: 380px;
+        height: 200px;
+        margin-left: 0px;
+    }
+
+    .container_text {
+        width: 300px;
+        color: white;
+        font-size: 11px;
+        text-align: justify;
+        margin-left: 407.5px;
+        margin-right: 407.5px;
+        line-height: 12px;
+    }
+
+    .cont {
+        margin-top: 38px;
+    }
+
+    .serv {
+        display: none;
+    }
+
+    .media_serv {
+        display: block;
+    }
+
+    .pict_1, .pict_2 {
+        height: 300px;
+    }
+
+    .pict_1 {
+        margin-left: 0px;
+        text-align: left;
+    }
+
+    .pict_2 {
+        text-align: right;
+    }
+
+    .images {
+        display: flex;
+        gap: 80px;
+    }
+
+    .texts {
+        display: flex;
+    }
+
+    .text_1, .text_2 {
+        margin-top: 30px;
+        font-size: 15px;
+    }
+
+    .btn {
+        display: flex;
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .button {
+        width: 130px;
+        height: 40px;
+        border: none;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 20px;
+        background-color: rgba(225, 198, 169, 1);
+        color: white;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .link_1 {
+        margin-left: 0px;
+    }
+
+    .link_2 {
+        margin-left: 90px;
+        margin-right: 0px;
+    }
+
+    .circles {
+        grid-template-columns: auto;
+        gap: 25px;
+        margin-left: 0px;
+    }
+
+    .natalia_circle, .ksenia_circle, .irina_circle {
+        height: 200px;
+    }
+
+    .names {
+        display: none;
+    }
+
+    .media_name {
+        display: block;
+        text-align: center;
+    }
+
+    footer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .title_fot {
+        font-size: 15px;
+    }
+
+    .first_col, .second_col, .third_col, .fourth_col, .fifth_col {
+        font-size: 11px;
+    }
+
+    .info {
+        grid-template-columns: repeat(2, 170px);
+        margin-left: 20px;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+}

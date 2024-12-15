@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Appointment</title>
+    <link rel="stylesheet" href="../css_pages/style_appointment.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            make<br>up<br>studio
+        </div>
+        <div class="menu_head">
+            <a href="../index.html">Главная</a>
+            <a href="pages/Reviews.html">Отзывы</a>
+            &#43;7 &#40;977&#41; 148 67 72
+        </div>
+        <div class="account">
+            <a href="pages/Account.html">
+                <img src="../img/Appointment/account_icon.svg" alt="Авторизация" />
+            </a>
+        </div>
+    </header>
+    <div class="margins">
+        <div class="banner">
+            <img src="../img/Appointment/banner_appointment.png" class="img">
+        </div>
+
+        <div class="first_method">
+            <div class="title">
+                Оформить запись можно следующими способами
+            </div>
+            <div class="first">
+                <img src="../img/Appointment/one_circle.png" class="img_1">
+                <div class="text">
+                    Позвонить нашему администратору по номеру&#58; &plus;7 &#40;977&#41; 148 67 72<br>
+                    Написать нам в WhatsUpp&#47;Telegram также по номеру&#58; &plus;7 &#40;977&#41; 148 67 72
+                </div>
+            </div>
+        </div>
+            <div class="second">
+                <img src="../img/Appointment/two_circle.png" class="img_1">
+                <div class="text">
+                    Заполнить форму ниже
+                </div>
+                <div class="forms">
+                    <form id="form" onsubmit="submitForm(event)">
+                        <fieldset>
+                            <legend>Личные данные</legend>
+                            <label for="name">&#42;Имя</label><input type="text" id="name"><br>
+                            <label for="lastname">&#42;Фамилия</label><input type="text" id="lastname"><br>
+                            <label for="databirth">&#42;Дата рождения</label><input type="date" id="databirth">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Выбор услуги</legend>
+                            <label for="service">&#42;Выберите услугу</label>
+                            <select name="service" id="service">
+                                <option>Уход за кожей лица</option>
+                                <option>Макияж лица</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Контактная информация</legend>
+                            <label for="number">&#42;Номер телефона</label><input type="tel" id="number"><br>
+                            <label for="mail">&#42;Электронная почта</label><input type="email" id="mail"><br>
+                        </fieldset>
+                        <fieldset>
+                            <legend>&#42;Пожелания</legend>
+                            <textarea name="wishes" id="wishes" cols="50" rows="5"></textarea>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Дополнительная информация</legend>
+                            <label for="radio" class="option_1">&#42;Посещали уже наш салон&#63;</label><br>
+                            <input type="radio" name="option" id="option" value="yes" checked="checked" class="option"/>Да<br>
+                            <input type="radio" name="option" id="option" value="no" class="option"/>Нет<br>
+                            <label for="file" class="option_1">Если Вы выбрали услугу &ldquo;Макияж&rdquo;&#44; то можете прикрепить референс</label><br>
+                            <input type="file" name="file" class="file">
+                        </fieldset>
+                        <button type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+                <hr>
+
+                <footer>
+                    <div class="logo">
+                        make<br>up<br>studio
+                    </div>
+                    <div class="info">
+                        <div class="first_col">
+                            <div class="title_fot">
+                                Контакты
+                            </div>
+                            &#43;7 &#40;977&#41; 148 67 72<br>
+                            <a href="https://mail.ru/">mkupstd&#64;mail&#46;ru</a>
+                        </div>
+                        <div class="second_col">
+                            <div class="title_fot">
+                                Адрес
+                            </div>
+                            Москва&#44; ул&#46;<br>
+                            Рождественская&#44;<br>
+                            д&#46; 13
+                        </div>
+                        <div class="third_col">
+                            <div class="title_fot">
+                                Социальные сети
+                            </div>
+                            <a href="https://web.telegram.org/a/">Telegram</a><br>
+                            <a href="https://web.whatsapp.com/">WhatsApp</a>
+                        </div>
+                        <div class="fourth_col">
+                            <div class="title_fot">
+                                График
+                            </div>
+                            Ежедневно 12&#58;00&#150;22&#58;00
+                        </div>
+                        <div class="fifth_col">
+                            <div class="title_fot">
+                                Поддержка
+                            </div>
+                            &#43;7 &#40;977&#41; 765 87 78<br>
+                            <a href="https://mail.ru/">mkupstdsupport&#64;mail&#46;ru</a>
+                        </div>
+                    </div>
+                </footer>
+          
+    <script src="../js_pages/Appointment_script.js"></script>
+</body>
+</html>
