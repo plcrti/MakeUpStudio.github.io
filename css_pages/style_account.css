@@ -74,11 +74,13 @@ button {
     background-color: rgba(197, 156, 142, 1);
     border: none;
     color: white;
-    width: 200px;
+    width: 250px;
     height: 2em;
     margin-top: 2em;
     font-size: 1.3em;
-    margin-left: 6em;
+    margin-left: 0px;
+    text-align: center;
+    justify-content: center;
 }
 
 .text {
