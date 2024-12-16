@@ -70,17 +70,20 @@ input {
     margin-top: 2em;
 }
 
+.btn {
+    text-align: center;
+}
+
 button {
     background-color: rgba(197, 156, 142, 1);
     border: none;
     color: white;
-    width: 250px;
+    width: 270px;
     height: 2em;
     margin-top: 2em;
     font-size: 1.3em;
     margin-left: 0px;
     text-align: center;
-    justify-content: center;
 }
 
 .text {
